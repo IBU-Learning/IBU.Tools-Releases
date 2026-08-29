@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement to IBU.Tools.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include confidential models, project names or paths, credentials, customer data, or unredacted logs.
+  - type: input
+    id: workflow
+    attributes:
+      label: Revit workflow or module
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the need without confidential project information.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed confidential models, names, paths, credentials, customer information, and unredacted logs.
+          required: true

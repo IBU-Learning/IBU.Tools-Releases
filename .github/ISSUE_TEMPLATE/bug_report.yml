@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible IBU.Tools problem using sanitized information.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not attach confidential models, project names or paths, credentials, customer data, or unredacted logs. Use a copied or sanitized model.
+  - type: input
+    id: ibu-version
+    attributes:
+      label: IBU.Tools version
+      placeholder: 0.9.0 Preview
+    validations:
+      required: true
+  - type: dropdown
+    id: revit-version
+    attributes:
+      label: Revit version
+      options: [Revit 2024, Revit 2025, Revit 2026.5 or later, Revit 2027]
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Affected module
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use sanitized names and paths.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed confidential models, names, paths, credentials, customer information, and unredacted logs.
+          required: true
