@@ -4,9 +4,9 @@ For product availability, supported Revit versions and downloads, see the [overv
 
 ## Install
 
-When the installer is available:
+To install the published v0.9.0 Preview:
 
-1. Close Revit. Download the installer from [Releases](https://github.com/IBU-Learning/IBU.Tools-Releases/releases) and verify its published SHA-256 checksum.
+1. Close Revit. Download the installer from the [v0.9.0 Preview release](https://github.com/IBU-Learning/IBU.Tools-Releases/releases/tag/v0.9.0) and verify its published SHA-256 checksum.
 2. Run setup with administrator approval and select the required supported Revit versions.
 3. Complete setup, start Revit and open the **IBU Tools** ribbon.
 
