@@ -1,21 +1,15 @@
-# IBU.Tools Preview Privacy
+# IBU.Tools Privacy
 
 ## Local operation
 
-IBU.Tools v0.9.0 Preview operates locally and makes no automatic network requests. It does not automatically transmit Revit models or project content, project names or paths, element or parameter data, reports, user identity, device identity, or usage information.
+IBU.Tools v0.9.0 Preview makes no automatic network requests and uses no telemetry or analytics. It does not automatically transmit models, project content or names, file paths, element or parameter data, reports, identity information or usage information.
 
-The Preview does not use login, licence-key activation, device registration, telemetry, analytics, or a live entitlement service. Preview expiry is evaluated locally.
+## Links you choose to open
 
-## User-initiated links
+Help and Documentation open [Getting started](USER_GUIDE.md); Update opens [Releases](https://github.com/IBU-Learning/IBU.Tools-Releases/releases). These actions connect your system browser to GitHub only after you click. GitHub handles website activity under its own privacy practices.
 
-Help and Documentation open the public User Guide, and Update opens this repository's Releases page, only after an explicit click. Those actions open GitHub in the system browser. GitHub is a separate service with its own privacy practices.
+## Files and support
 
-## Local files and exports
+Settings, logs, workbooks and reports are saved locally or to your chosen destination. IBU.Tools does not automatically upload them. Cloud-sync software or network storage may transfer files you save to those locations.
 
-Settings, diagnostic logs, exported logs, workbooks, reports, and other selected output are stored or exported locally. Creating or opening a local file is not an automatic transmission. IBU.Tools does not automatically upload these files.
-
-You control where locally exported files are saved and whether they are later shared. Review and redact them before attaching them to a GitHub issue.
-
-## Safe support reporting
-
-Do not submit confidential models, project names, file paths, credentials, licence material, customer information, or unredacted logs. Reproduce issues with a sanitized or copied model where possible and include only the minimum information needed for diagnosis.
+Emailing support or posting an issue sends the information you choose to provide through that service. Review it first: do not send confidential models, project or customer information, paths, credentials or unreviewed logs. See [Support](SUPPORT.md).

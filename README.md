@@ -1,31 +1,27 @@
 # IBU.Tools
 
-IBU.Tools is a productivity add-in for Autodesk Revit. This public repository is the home for user documentation, release notes, support, and—once validation is complete—official installer downloads.
+IBU.Tools is a productivity add-in for Autodesk Revit, bringing drawing output, Excel exchange and model-data review into one ribbon.
 
-> **Preview notice:** IBU.Tools v0.9.0 Preview is undergoing release-candidate validation. The Preview download is not yet available. When published, Preview access will be available through **30 November 2026 (UTC)**. Evaluate it using copies of models and verify results before relying on them in production work.
+**v0.9.0 Preview is undergoing validation and is not yet available for download.**
 
-## Current modules
+[Downloads](https://github.com/IBU-Learning/IBU.Tools-Releases/releases) · [Getting started](docs/USER_GUIDE.md) · [Release notes](docs/RELEASE_NOTES.md) · [Support](docs/SUPPORT.md)
 
-- Schedule Export — export Revit schedule data for Excel-based workflows.
-- Schedule Import — review and import supported spreadsheet changes.
-- Print Center — prepare and run supported sheet output workflows.
-- Sheet Manager — review and manage supported sheet information.
-- Parameter Manager — explore, review, and manage supported parameter workflows.
-- Health Check — review supported model health information and export results.
+## Tools
 
-## Compatibility
+- **Excel Export / Import** — exchange schedule data with Excel and review supported changes.
+- **Print Center** — prepare drawing output with consistent naming through Naming Profile Builder.
+- **Sheet Manager** — manage sheet information and revision assignments.
+- **Parameter Manager** — review and manage supported parameter definitions.
+- **Health Check** — inspect model-health findings and export reports.
 
-- Autodesk Revit 2024 — .NET Framework 4.8
-- Autodesk Revit 2025 — .NET 8
-- Autodesk Revit 2026.5 or later — .NET 10
-- Autodesk Revit 2027 — .NET 10
+## Supported Revit versions
 
-## Documentation
+Revit **2024**, **2025**, **2026.5 or later within the 2026 release line**, and **2027**.
 
-- [User Guide](docs/USER_GUIDE.md)
-- [Release Notes](docs/RELEASE_NOTES.md)
-- [Privacy](docs/PRIVACY.md)
-- [Support](docs/SUPPORT.md)
-- [Releases](https://github.com/IBU-Learning/IBU.Tools-Releases/releases) — no Preview download is available yet
+## Before using
 
-IBU.Tools is proprietary software. This repository contains public documentation and distribution materials; it is not the product source repository.
+Review the [access conditions and limitations](docs/RELEASE_NOTES.md#access-conditions-and-limitations). Evaluate on copied models and verify changes and exported files before using results in production.
+
+Contact: [ibulearning@gmail.com](mailto:ibulearning@gmail.com) · [Privacy](docs/PRIVACY.md)
+
+IBU.Tools is proprietary software. This repository contains public help and distribution materials, not the product source code.

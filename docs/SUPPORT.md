@@ -1,14 +1,10 @@
 # IBU.Tools Support
 
-Use [GitHub Issues](https://github.com/IBU-Learning/IBU.Tools-Releases/issues) for Preview support and feedback.
+- **Direct contact:** [ibulearning@gmail.com](mailto:ibulearning@gmail.com)
+- **Public bug reports and suggestions:** [GitHub Issues](https://github.com/IBU-Learning/IBU.Tools-Releases/issues)
 
-Before opening an issue:
+Check [Getting started](USER_GUIDE.md) and existing issues first. Include your IBU.Tools version, exact Revit version/update, affected tool, short reproduction steps and expected versus actual result. Add a sanitised screenshot only if useful.
 
-1. Check the [User Guide](USER_GUIDE.md) and existing issues.
-2. Reproduce the problem using a copied or sanitized model where possible.
-3. Record the IBU.Tools version, exact Revit version, Windows version, affected module, expected result, actual result, and repeatable steps.
-4. Remove confidential information before submitting.
+GitHub issues are public. For both email and issues, remove confidential models, project or customer information, file paths, credentials and unreviewed logs. Use non-confidential sample data when reproducing a problem.
 
-Never attach confidential models, project names, project or user paths, credentials, licence material, customer data, or unredacted logs. Nothing is automatically uploaded by IBU.Tools; attaching text or files to GitHub is your explicit action and is subject to GitHub's privacy practices.
-
-Feature requests are welcome, but the Preview is focused on validation and reliability. Submission does not promise implementation or a schedule.
+Suggestions are welcome but do not guarantee implementation or a delivery date.

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Do not attach confidential models, project names or paths, credentials, customer data, or unredacted logs. Use a copied or sanitized model.
+        This report is public. Do not attach confidential models, project names or paths, credentials, customer data, or unreviewed logs. Reproduce with non-confidential sample data. For direct contact: ibulearning@gmail.com.
   - type: input
     id: ibu-version
     attributes:
@@ -14,11 +14,11 @@ body:
       placeholder: 0.9.0 Preview
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: revit-version
     attributes:
-      label: Revit version
-      options: [Revit 2024, Revit 2025, Revit 2026.5 or later, Revit 2027]
+      label: Exact Revit version and update/build
+      description: Copy the version information from Revit's About window.
     validations:
       required: true
   - type: input
@@ -31,7 +31,7 @@ body:
     id: steps
     attributes:
       label: Reproduction steps
-      description: Use sanitized names and paths.
+      description: Keep steps brief and use sanitised sample information.
     validations:
       required: true
   - type: textarea
@@ -51,5 +51,5 @@ body:
     attributes:
       label: Privacy confirmation
       options:
-        - label: I removed confidential models, names, paths, credentials, customer information, and unredacted logs.
+        - label: I removed confidential models, names, paths, credentials, customer information, and unreviewed logs.
           required: true
