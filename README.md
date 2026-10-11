@@ -2,7 +2,7 @@
 
 IBU.Tools is a productivity add-in for Autodesk Revit, bringing drawing output, Excel exchange and model-data review into one ribbon.
 
-**[v0.9.0 Preview is available now](https://github.com/IBU-Learning/IBU.Tools-Releases/releases/tag/v0.9.0). Preview access is available through 30 November 2026 UTC.**
+**[v0.9.1 Preview is available now](https://github.com/IBU-Learning/IBU.Tools-Releases/releases/tag/v0.9.1). Preview access is available through 30 November 2026 UTC.**
 
 [Downloads](https://github.com/IBU-Learning/IBU.Tools-Releases/releases) · [Getting started](docs/USER_GUIDE.md) · [Release notes](docs/RELEASE_NOTES.md) · [Support](docs/SUPPORT.md)
 

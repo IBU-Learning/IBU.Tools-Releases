@@ -4,10 +4,10 @@ For product availability, supported Revit versions and downloads, see the [overv
 
 ## Install
 
-To install the published v0.9.0 Preview:
+To install the v0.9.1 Preview:
 
-1. Close Revit. Download the installer from the [v0.9.0 Preview release](https://github.com/IBU-Learning/IBU.Tools-Releases/releases/tag/v0.9.0) and verify its published SHA-256 checksum.
-2. Run setup with administrator approval and select the required supported Revit versions.
+1. Close Revit. Download the installer from the [v0.9.1 Preview release](https://github.com/IBU-Learning/IBU.Tools-Releases/releases/tag/v0.9.1) and verify its published SHA-256 checksum.
+2. Run setup in the Windows account that will use IBU.Tools and select the required supported Revit versions. A normal per-user installation does not require administrator permission.
 3. Complete setup, start Revit and open the **IBU Tools** ribbon.
 
 The installer does not install or update Revit. Revit 2026 requires update 2026.5 or later.
@@ -18,7 +18,9 @@ Choose **About** on the ribbon to check the installed version and product status
 
 ## Upgrade or change installed versions
 
-Close Revit, run the approved replacement installer and review the versions that should remain installed. After setup, check the ribbon in each selected Revit version.
+If you have a machine-wide v0.9.0 installation, close Revit and ask an administrator or IT to uninstall it before installing v0.9.1. The per-user installer will not remove or migrate the machine-wide edition. Do not run both editions together. Back up personal settings and confirm the old IBU.Tools add-in registration has been removed before proceeding; contact support if an unowned or duplicate registration remains.
+
+For an existing per-user installation, close Revit before running a replacement installer. Verify the selected Revit versions, a single IBU.Tools ribbon and your settings afterward. Upgrade, downgrade refusal, failed-upgrade rollback and settings preservation have not been fully tested; keep a backup before changing installations.
 
 ## Uninstall
 
